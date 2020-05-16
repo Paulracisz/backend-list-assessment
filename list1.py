@@ -5,7 +5,7 @@ Kenzie assignment: List1
 """
 # Your name, plus anyone who helped you with this assignment.
 # Give credit where credit is due.
-__author__ = "???"
+__author__ = "Paul Racisz"
 
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
@@ -26,8 +26,16 @@ __author__ = "???"
 
 
 def match_ends(words):
-    # your code here
-    return
+    #set a counter variable
+    counter = 0
+    for str in words:
+        #for every string in our words list:
+        if len(str) >= 2 and str[0] == str[-1]:
+            #checking to see if the length of the string is greater than or equal to 2,
+            #and if the first and last characters are equal
+            counter += 1 
+            #increment our counter when the if is = to true
+    return counter
 
 
 # B. front_x
@@ -42,7 +50,7 @@ def match_ends(words):
 
 
 def front_x(words):
-    # your code here
+    
     return
 
 
